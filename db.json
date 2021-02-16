@@ -1,0 +1,274 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "sensors": [
+        "GSJ1535"
+      ],
+      "model": "motor",
+      "name": "Motor H13D-1",
+      "image": "https://tractian-img.s3.amazonaws.com/6d5028682016cb43d02b857d4f1384ae.jpeg",
+      "specifications": {
+        "maxTemp": 80
+      },
+      "metrics": {
+        "totalCollectsUptime": 7516,
+        "totalUptime": 1419.620084999977,
+        "lastUptimeAt": "2021-02-16T16:17:50.180Z"
+      },
+      "unitId": 1,
+      "companyId": 1
+    },
+    {
+      "id": 2,
+      "sensors": [
+        "IBS1636"
+      ],
+      "model": "motor",
+      "name": "Motor H12D-1",
+      "image": "https://tractian-img.s3.amazonaws.com/dc8a497655c688ce381d6a3ba4af684d.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 1279,
+        "totalUptime": 1420.5929977777462,
+        "lastUptimeAt": "2021-02-16T16:12:18.342Z"
+      },
+      "specifications": {
+        "power": 1.5,
+        "maxTemp": 53,
+        "rpm": null
+      },
+      "unitId": 1,
+      "companyId": 1
+    },
+    {
+      "id": 3,
+      "sensors": [
+        "JVC1134"
+      ],
+      "model": "motor",
+      "name": "Motor H12D-3",
+      "image": "https://tractian-img.s3.amazonaws.com/646a1fe6494d3a7405908076a5ac1429.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 889,
+        "totalUptime": 1500.29189638886,
+        "lastUptimeAt": "2021-02-16T16:20:51.029Z"
+      },
+      "specifications": {
+        "maxTemp": 57,
+        "power": 0,
+        "rpm": 1750
+      },
+      "unitId": 1,
+      "companyId": 1
+    },
+    {
+      "id": 4,
+      "sensors": [
+        "LZY5230"
+      ],
+      "model": "motor",
+      "name": "Motor H12D-2",
+      "image": "https://tractian-img.s3.amazonaws.com/73a0d014d00f704b73965a049695ad0d.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 8540,
+        "totalUptime": 1523.0280638888194,
+        "lastUptimeAt": "2021-02-16T16:20:43.786Z"
+      },
+      "specifications": {
+        "maxTemp": 55,
+        "rpm": 1740,
+        "power": 0
+      },
+      "unitId": 2,
+      "companyId": 1
+    },
+    {
+      "id": 5,
+      "sensors": [
+        "NBX2120"
+      ],
+      "model": "fan",
+      "name": "Ventilador D21",
+      "image": "https://tractian-img.s3.amazonaws.com/16fbd9f50d3c6cfca8c6c2bc834ac0f0.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 8276,
+        "totalUptime": 1474.8898133332748,
+        "lastUptimeAt": "2021-02-16T16:25:28.989Z"
+      },
+      "specifications": {
+        "rpm": 840,
+        "maxTemp": 64,
+        "power": 1.5
+      },
+      "unitId": 2,
+      "companyId": 1
+    },
+    {
+      "id": 6,
+      "sensors": [
+        "MOE1378"
+      ],
+      "model": "fan",
+      "name": "Ventilador D22",
+      "image": "https://tractian-img.s3.amazonaws.com/2f7eb04cfa255ab00088534f7d51f6f4.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 6231,
+        "totalUptime": 1542.8288661110903,
+        "lastUptimeAt": "2021-02-16T16:23:58.801Z"
+      },
+      "specifications": {
+        "rpm": 832,
+        "maxTemp": 58,
+        "power": 1.5
+      },
+      "unitId": 2,
+      "companyId": 1
+    },
+    {
+      "id": 7,
+      "sensors": [
+        "MYS2173"
+      ],
+      "model": "fan",
+      "name": "Ventilador D23",
+      "image": "https://tractian-img.s3.amazonaws.com/1c588f23dc92a7b97975a10757dd0435.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 8293,
+        "totalUptime": 1454.0194266666383,
+        "lastUptimeAt": "2021-02-16T16:26:06.835Z"
+      },
+      "specifications": {
+        "rpm": 894,
+        "maxTemp": 60,
+        "power": 1.5
+      },
+      "unitId": 2,
+      "companyId": 1
+    },
+    {
+      "id": 8,
+      "sensors": [
+        "HPO6412"
+      ],
+      "model": "fan",
+      "name": "Ventilador D24",
+      "image": "https://tractian-img.s3.amazonaws.com/19f526bc0f39fcf451de4098f48cd7d1.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 7799,
+        "totalUptime": 1385.774407499964,
+        "lastUptimeAt": "2021-02-16T16:18:37.247Z"
+      },
+      "specifications": {
+        "rpm": 880,
+        "power": 1.5,
+        "maxTemp": 51
+      },
+      "unitId": 2,
+      "companyId": 1
+    },
+    {
+      "id": 9,
+      "sensors": [
+        "BMS9149"
+      ],
+      "model": "fan",
+      "name": "Ventilador D25",
+      "image": "https://tractian-img.s3.amazonaws.com/28a89d706a3ef5579da321896b9d0da6.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 7690,
+        "totalUptime": 1460.7369638888385,
+        "lastUptimeAt": "2021-02-16T16:23:58.879Z"
+      },
+      "specifications": {
+        "rpm": 820,
+        "maxTemp": 61,
+        "power": 1.5
+      },
+      "unitId": 2,
+      "companyId": 1
+    },
+    {
+      "id": 10,
+      "sensors": [
+        "KBJ1010"
+      ],
+      "model": "fan",
+      "name": "Ventilador D26",
+      "image": "https://tractian-img.s3.amazonaws.com/4be920ff78c4cf143494d0af4e56ca06.jpeg",
+      "metrics": {
+        "totalCollectsUptime": 8178,
+        "totalUptime": 1531.5139161110642,
+        "lastUptimeAt": "2021-02-16T16:23:59.725Z"
+      },
+      "specifications": {
+        "rpm": 870,
+        "maxTemp": 61,
+        "power": 1.5
+      },
+      "unitId": 2,
+      "companyId": 1
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "name": "Unidade Jaguar",
+      "companyId": 1
+    },
+    {
+      "id": 2,
+      "name": "Unidade Tobias",
+      "companyId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "teste1@tractian.com",
+      "name": "Testador Um",
+      "unitId": 1,
+      "companyId": 1
+    },
+    {
+      "id": 2,
+      "email": "teste2@tractian.com",
+      "name": "Testador Dois",
+      "unitId": 1,
+      "companyId": 1
+    },
+    {
+      "id": 3,
+      "email": "teste3@tractian.com",
+      "name": "Testador Três",
+      "unitId": 1,
+      "companyId": 1
+    },
+    {
+      "id": 4,
+      "email": "teste4@tractian.com",
+      "name": "Testador Quarto",
+      "unitId": 1,
+      "companyId": 1
+    },
+    {
+      "id": 5,
+      "email": "teste5@tractian.com",
+      "name": "Testador Cinco",
+      "unitId": 2,
+      "companyId": 1
+    },
+    {
+      "id": 6,
+      "email": "teste6@tractian.com",
+      "name": "Testador Seis",
+      "unitId": 2,
+      "companyId": 1
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Empresa Teste"
+    }
+  ]
+}
