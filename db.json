@@ -96,7 +96,7 @@
         "NBX2120"
       ],
 			"status": "inAlert",
-			"healthscore": 91.2,
+			"healthscore": 60.4,
       "model": "fan",
       "name": "Ventilador D21",
       "image": "https://tractian-img.s3.amazonaws.com/16fbd9f50d3c6cfca8c6c2bc834ac0f0.jpeg",
@@ -118,6 +118,8 @@
       "sensors": [
         "MOE1378"
       ],
+                        "status": "inDowntime",
+			"healthscore": 91.2,
       "model": "fan",
       "name": "Ventilador D22",
       "image": "https://tractian-img.s3.amazonaws.com/2f7eb04cfa255ab00088534f7d51f6f4.jpeg",
