@@ -98,3 +98,22 @@ Para você usar essa API, utilize essa url (<https://my-json-server.typicode.com
 >
 >Ex: <https://my-json-server.typicode.com/tractian/fake-api/companies/1>
 >
+
+### Ordens de Serviço
+
+>#### Acessar todas as Ordens de Serviço
+>
+>``` bash
+>https://my-json-server.typicode.com/tractian/fake-api/workorders
+>```
+>
+>Ex: <https://my-json-server.typicode.com/tractian/fake-api/workorders>
+>
+>#### Acessar apenas uma Ordem de serviço
+>
+>``` bash
+>https://my-json-server.typicode.com/tractian/fake-api/workorders/:id
+>```
+>
+>Ex: <https://my-json-server.typicode.com/tractian/fake-api/workorders/1>
+>
