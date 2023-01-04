@@ -1,294 +1,392 @@
 {
   "assets": [
     {
-      "id": 1,
-      "sensors": [
-        "GSJ1535"
+      "assignedUserIds": [1, 2, 3],
+      "companyId": 1,
+      "healthHistory": [
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-01T00:00:00.000Z"
+        },
+        {
+          "status": "inDowntime",
+          "timestamp": "2022-12-08T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-15T00:00:00.000Z"
+        },
+        {
+          "status": "inAlert",
+          "timestamp": "2022-12-22T00:00:00.000Z"
+        },
+        {
+          "status": "unplannedStop",
+          "timestamp": "2022-12-29T00:00:00.000Z"
+        }
       ],
-      "model": "motor",
-			"status": "inAlert",
-			"healthscore": 70.0,
-      "name": "Motor H13D-1",
+      "healthscore": 70,
+      "id": 1,
       "image": "https://tractian-img.s3.amazonaws.com/6d5028682016cb43d02b857d4f1384ae.jpeg",
+      "metrics": {
+        "lastUptimeAt": "2023-01-01T16:17:50.180Z",
+        "totalCollectsUptime": 7516,
+        "totalUptime": 1419.620084999977
+      },
+      "model": "motor",
+      "name": "Motor H13D-1",
+      "sensors": ["GSJ1535"],
       "specifications": {
         "maxTemp": 80
       },
-      "metrics": {
-        "totalCollectsUptime": 7516,
-        "totalUptime": 1419.620084999977,
-        "lastUptimeAt": "2021-02-16T16:17:50.180Z"
-      },
-      "unitId": 1,
-      "companyId": 1
+      "status": "inAlert",
+      "unitId": 1
     },
     {
-      "id": 2,
-      "sensors": [
-        "IBS1636"
+      "assignedUserIds": [4],
+      "companyId": 1,
+      "healthHistory": [
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-01T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-08T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-15T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-22T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-29T00:00:00.000Z"
+        }
       ],
-			"status": "inDowntime",
-			"healthscore": 73.7,
-      "model": "motor",
-      "name": "Motor H12D-1",
+      "healthscore": 73.7,
+      "id": 2,
       "image": "https://tractian-img.s3.amazonaws.com/dc8a497655c688ce381d6a3ba4af684d.jpeg",
       "metrics": {
+        "lastUptimeAt": "2023-01-01T16:12:18.342Z",
         "totalCollectsUptime": 1279,
-        "totalUptime": 1420.5929977777462,
-        "lastUptimeAt": "2021-02-16T16:12:18.342Z"
+        "totalUptime": 1420.5929977777462
       },
+      "model": "motor",
+      "name": "Motor H12D-1",
+      "sensors": ["IBS1636"],
       "specifications": {
-        "power": 1.5,
         "maxTemp": 53,
+        "power": 1.5,
         "rpm": null
       },
-      "unitId": 1,
-      "companyId": 1
+      "status": "inDowntime",
+      "unitId": 1
     },
     {
-      "id": 3,
-      "sensors": [
-        "JVC1134"
+      "assignedUserIds": [2, 4],
+      "companyId": 1,
+      "healthHistory": [
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-01T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-08T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-15T00:00:00.000Z"
+        },
+        {
+          "status": "inAlert",
+          "timestamp": "2022-12-22T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-29T00:00:00.000Z"
+        }
       ],
-			"status": "inOperation",
-			"healthscore": 90.9,
-      "model": "motor",
-      "name": "Motor H12D-3",
+      "healthscore": 90.9,
+      "id": 3,
       "image": "https://tractian-img.s3.amazonaws.com/646a1fe6494d3a7405908076a5ac1429.jpeg",
       "metrics": {
+        "lastUptimeAt": "2023-01-01T16:20:51.029Z",
         "totalCollectsUptime": 889,
-        "totalUptime": 1500.29189638886,
-        "lastUptimeAt": "2021-02-16T16:20:51.029Z"
+        "totalUptime": 1500.29189638886
       },
+      "model": "motor",
+      "name": "Motor H12D-3",
+      "sensors": ["JVC1134"],
       "specifications": {
         "maxTemp": 57,
         "power": 0,
         "rpm": 1750
       },
-      "unitId": 1,
-      "companyId": 1
+      "status": "inOperation",
+      "unitId": 1
     },
     {
-      "id": 4,
-      "sensors": [
-        "LZY5230"
+      "assignedUserIds": [1, 3],
+      "companyId": 1,
+      "healthHistory": [
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-01T00:00:00.000Z"
+        },
+        {
+          "status": "plannedStop",
+          "timestamp": "2022-12-08T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-15T00:00:00.000Z"
+        },
+        {
+          "status": "plannedStop",
+          "timestamp": "2022-12-22T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-29T00:00:00.000Z"
+        }
       ],
-			"status": "inOperation",
-			"healthscore": 88.3,
-      "model": "motor",
-      "name": "Motor H12D-2",
+      "healthscore": 88.3,
+      "id": 4,
       "image": "https://tractian-img.s3.amazonaws.com/73a0d014d00f704b73965a049695ad0d.jpeg",
       "metrics": {
+        "lastUptimeAt": "2023-01-01T16:20:43.786Z",
         "totalCollectsUptime": 8540,
-        "totalUptime": 1523.0280638888194,
-        "lastUptimeAt": "2021-02-16T16:20:43.786Z"
+        "totalUptime": 1523.0280638888194
       },
+      "model": "motor",
+      "name": "Motor H12D-2",
+      "sensors": ["LZY5230"],
       "specifications": {
         "maxTemp": 55,
-        "rpm": 1740,
-        "power": 0
+        "power": 0,
+        "rpm": 1740
       },
-      "unitId": 2,
-      "companyId": 1
+      "status": "inOperation",
+      "unitId": 2
     },
     {
-      "id": 5,
-      "sensors": [
-        "NBX2120"
+      "assignedUserIds": [1, 2, 3],
+      "companyId": 1,
+      "healthHistory": [
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-01T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-08T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-15T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-22T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-29T00:00:00.000Z"
+        }
       ],
-			"status": "inAlert",
-			"healthscore": 60.4,
-      "model": "fan",
-      "name": "Ventilador D21",
+      "healthscore": 60.4,
+      "id": 5,
       "image": "https://tractian-img.s3.amazonaws.com/16fbd9f50d3c6cfca8c6c2bc834ac0f0.jpeg",
       "metrics": {
+        "lastUptimeAt": "2023-01-01T16:25:28.989Z",
         "totalCollectsUptime": 8276,
-        "totalUptime": 1474.8898133332748,
-        "lastUptimeAt": "2021-02-16T16:25:28.989Z"
+        "totalUptime": 1474.8898133332748
       },
+      "model": "fan",
+      "name": "Fan D21",
+      "sensors": ["NBX2120"],
       "specifications": {
-        "rpm": 840,
         "maxTemp": 64,
-        "power": 1.5
+        "power": 1.5,
+        "rpm": 840
       },
-      "unitId": 2,
-      "companyId": 1
+      "status": "inAlert",
+      "unitId": 2
     },
     {
-      "id": 6,
-      "sensors": [
-        "MOE1378"
+      "assignedUserIds": [2],
+      "companyId": 1,
+      "healthHistory": [
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-01T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-08T00:00:00.000Z"
+        },
+        {
+          "status": "plannedStop",
+          "timestamp": "2022-12-15T00:00:00.000Z"
+        },
+        {
+          "status": "plannedStop",
+          "timestamp": "2022-12-22T00:00:00.000Z"
+        },
+        {
+          "status": "inOperation",
+          "timestamp": "2022-12-29T00:00:00.000Z"
+        }
       ],
-                        "status": "inDowntime",
-			"healthscore": 91.2,
-      "model": "fan",
-      "name": "Ventilador D22",
+      "healthscore": 91.2,
+      "id": 6,
       "image": "https://tractian-img.s3.amazonaws.com/2f7eb04cfa255ab00088534f7d51f6f4.jpeg",
       "metrics": {
+        "lastUptimeAt": "2023-01-01T16:23:58.801Z",
         "totalCollectsUptime": 6231,
-        "totalUptime": 1542.8288661110903,
-        "lastUptimeAt": "2021-02-16T16:23:58.801Z"
+        "totalUptime": 1542.8288661110903
       },
+      "model": "fan",
+      "name": "Fan D22",
+      "sensors": ["MOE1378"],
       "specifications": {
-        "rpm": 832,
         "maxTemp": 58,
-        "power": 1.5
-      },
-      "unitId": 2,
-      "companyId": 1
-    },
-    {
-      "id": 7,
-      "sensors": [
-        "MYS2173"
-      ],
-			"status": "inAlert",
-			"healthscore": 53.8,
-      "model": "fan",
-      "name": "Ventilador D23",
-      "image": "https://tractian-img.s3.amazonaws.com/1c588f23dc92a7b97975a10757dd0435.jpeg",
-      "metrics": {
-        "totalCollectsUptime": 8293,
-        "totalUptime": 1454.0194266666383,
-        "lastUptimeAt": "2021-02-16T16:26:06.835Z"
-      },
-      "specifications": {
-        "rpm": 894,
-        "maxTemp": 60,
-        "power": 1.5
-      },
-      "unitId": 2,
-      "companyId": 1
-    },
-    {
-      "id": 8,
-      "sensors": [
-        "HPO6412"
-      ],
-			"status": "inAlert",
-			"healthscore": 76.12,
-      "model": "fan",
-      "name": "Ventilador D24",
-      "image": "https://tractian-img.s3.amazonaws.com/19f526bc0f39fcf451de4098f48cd7d1.jpeg",
-      "metrics": {
-        "totalCollectsUptime": 7799,
-        "totalUptime": 1385.774407499964,
-        "lastUptimeAt": "2021-02-16T16:18:37.247Z"
-      },
-      "specifications": {
-        "rpm": 880,
         "power": 1.5,
-        "maxTemp": 51
+        "rpm": 832
       },
-      "unitId": 2,
-      "companyId": 1
-    },
-    {
-      "id": 9,
-      "sensors": [
-        "BMS9149"
-      ],
-			"status": "inAlert",
-			"healthscore": 66.09,
-      "model": "fan",
-      "name": "Ventilador D25",
-      "image": "https://tractian-img.s3.amazonaws.com/28a89d706a3ef5579da321896b9d0da6.jpeg",
-      "metrics": {
-        "totalCollectsUptime": 7690,
-        "totalUptime": 1460.7369638888385,
-        "lastUptimeAt": "2021-02-16T16:23:58.879Z"
-      },
-      "specifications": {
-        "rpm": 820,
-        "maxTemp": 61,
-        "power": 1.5
-      },
-      "unitId": 2,
-      "companyId": 1
-    },
-    {
-      "id": 10,
-      "sensors": [
-        "KBJ1010"
-      ],
-			"status": "inOperation",
-			"healthscore": 50.13,
-      "model": "fan",
-      "name": "Ventilador D26",
-      "image": "https://tractian-img.s3.amazonaws.com/4be920ff78c4cf143494d0af4e56ca06.jpeg",
-      "metrics": {
-        "totalCollectsUptime": 8178,
-        "totalUptime": 1531.5139161110642,
-        "lastUptimeAt": "2021-02-16T16:23:59.725Z"
-      },
-      "specifications": {
-        "rpm": 870,
-        "maxTemp": 61,
-        "power": 1.5
-      },
-      "unitId": 2,
-      "companyId": 1
-    }
-  ],
-  "units": [
-    {
-      "id": 1,
-      "name": "Unidade Jaguar",
-      "companyId": 1
-    },
-    {
-      "id": 2,
-      "name": "Unidade Tobias",
-      "companyId": 1
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "email": "teste1@tractian.com",
-      "name": "Testador Um",
-      "unitId": 1,
-      "companyId": 1
-    },
-    {
-      "id": 2,
-      "email": "teste2@tractian.com",
-      "name": "Testador Dois",
-      "unitId": 1,
-      "companyId": 1
-    },
-    {
-      "id": 3,
-      "email": "teste3@tractian.com",
-      "name": "Testador Três",
-      "unitId": 1,
-      "companyId": 1
-    },
-    {
-      "id": 4,
-      "email": "teste4@tractian.com",
-      "name": "Testador Quarto",
-      "unitId": 1,
-      "companyId": 1
-    },
-    {
-      "id": 5,
-      "email": "teste5@tractian.com",
-      "name": "Testador Cinco",
-      "unitId": 2,
-      "companyId": 1
-    },
-    {
-      "id": 6,
-      "email": "teste6@tractian.com",
-      "name": "Testador Seis",
-      "unitId": 2,
-      "companyId": 1
+      "status": "inDowntime",
+      "unitId": 2
     }
   ],
   "companies": [
     {
       "id": 1,
-      "name": "Empresa Teste"
+      "name": "The Test Company"
+    }
+  ],
+  "units": [
+    {
+      "companyId": 1,
+      "id": 1,
+      "name": "Jaguar Unit"
+    },
+    {
+      "companyId": 1,
+      "id": 2,
+      "name": "Tobias Unit"
+    }
+  ],
+  "users": [
+    {
+      "companyId": 1,
+      "email": "testerOne@tractian.com",
+      "id": 1,
+      "name": "John Doe",
+      "unitId": 1
+    },
+    {
+      "companyId": 1,
+      "email": "testerTwo@tractian.com",
+      "id": 2,
+      "name": "Jane Doe",
+      "unitId": 1
+    },
+    {
+      "companyId": 1,
+      "email": "testerThree@tractian.com",
+      "id": 3,
+      "name": "Bob Smith",
+      "unitId": 1
+    },
+    {
+      "companyId": 1,
+      "email": "testerFour@tractian.com",
+      "id": 4,
+      "name": "Sarah Johnson",
+      "unitId": 1
+    },
+    {
+      "companyId": 1,
+      "email": "testerFive@tractian.com",
+      "id": 5,
+      "name": "Tim Brown",
+      "unitId": 2
+    }
+  ],
+  "workorders": [
+    {
+      "assetId": 5,
+      "assignedUserIds": [1, 2, 3],
+      "checklist": [
+        {
+          "completed": true,
+          "task": "Inspect Fan for visible damage"
+        },
+        {
+          "completed": true,
+          "task": "Test Fan for proper operation"
+        },
+        {
+          "completed": true,
+          "task": "Replace damaged parts"
+        }
+      ],
+      "description": "The Fan is not working properly and needs to be repaired.",
+      "id": 1,
+      "priority": "high",
+      "status": "completed",
+      "title": "Repair Fan D21"
+    },
+    {
+      "assetId": 1,
+      "assignedUserIds": [1, 2, 3],
+      "checklist": [
+        {
+          "completed": true,
+          "task": "Test motor for overheating"
+        },
+        {
+          "completed": false,
+          "task": "Replace damaged parts"
+        },
+        {
+          "completed": false,
+          "task": "Test motor for proper operation"
+        }
+      ],
+      "description": "The motor is running hot and we must inspect.",
+      "id": 2,
+      "priority": "high",
+      "status": "in progress",
+      "title": "Repair Motor H13D-1"
+    },
+    {
+      "assetId": 3,
+      "assignedUserIds": [1, 4, 5],
+      "checklist": [
+        {
+          "completed": true,
+          "task": "Inspect Fan for visible damage"
+        },
+        {
+          "completed": true,
+          "task": "Test Fan for proper operation"
+        },
+        {
+          "completed": true,
+          "task": "Replace damaged parts"
+        }
+      ],
+      "description": "The Fan is not working properly and needs to be repaired.",
+      "id": 2,
+      "priority": "high",
+      "status": "completed",
+      "title": "Repair Fan D22"
     }
   ]
 }
